@@ -5,8 +5,8 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = { "pretty" }, features = "Features", glue = "hellocucumber")
-//@CucumberOptions(features = "Features", glue = "hellocucumber")
+//@CucumberOptions(plugin = { "pretty" }, features = "Features", glue = "hellocucumber")
+@CucumberOptions(features = "Features", glue = "hellocucumber")
 public class RunCucumberTest {
 
 }
